@@ -9,7 +9,9 @@ import UseEffect from './Components/31-10/UseEffect';
 import UseEffectTwo from './Components/31-10/UseEffectTwo';
 import UseEffectThree from './Components/31-10/UseEffectThree';
 import UseEffectFour from './Components/31-10/UseEffecFour';
-import PropDrilling from './Components/02-11/Propdrilling';
+// import PropDrilling from './Components/02-11/Propdrilling';
+import FormRegister from './Components/6-11/FormRegister.jsx';
+import Login1 from './Components/8-11/Login1.jsx';
 
 
 
@@ -26,7 +28,9 @@ function App() {
       <Route path='/use-effect-2' element = {<UseEffectTwo/>}/>
       <Route path='/use-effect-3' element = {<UseEffectThree/>}/>
       <Route path='/use-effect-4' element = {<UseEffectFour/>}/>
-      <Route path='/propDrilling' element = {<PropDrilling myName ={Pranita} myState= "Maharashtra"/>}/>
+      {/* <Route path='/propDrilling' element = {<PropDrilling myName ={Pranita} myState= "Maharashtra"/>}/> */}
+      <Route path='/formRegister' element = {<FormRegister/>}/>
+      <Route path='/login1' element = {<Login1/>}/>
      </Routes>
     </div>
   )
